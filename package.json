@@ -1,0 +1,28 @@
+{
+  "name": "micropub",
+  "version": "1.0.0",
+  "description": "A generate-feed micropub client",
+  "main": "index.js",
+  "scripts": {
+    "test": "run-s test:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcomnes/generate-feed-micropub.git"
+  },
+  "keywords": [
+    "generate-feed",
+    "jsonfeed",
+    "feed json",
+    "atom"
+  ],
+  "author": "Bret Comnes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bcomnes/generate-feed-micropub/issues"
+  },
+  "homepage": "https://github.com/bcomnes/generate-feed-micropub#readme",
+  "dependencies": {
+    "@octokit/rest": "^15.2.6"
+  }
+}
